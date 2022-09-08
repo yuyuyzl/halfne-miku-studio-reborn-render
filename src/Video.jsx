@@ -1,6 +1,7 @@
 import {Composition} from 'remotion';
 import {HelloWorld} from './HelloWorld';
 
+import data from './HMSR-Render-Data (1).json'
 // Each <Composition> is an entry in the sidebar!
 
 export const RemotionVideo = () => {
@@ -9,10 +10,11 @@ export const RemotionVideo = () => {
 			<Composition
 				id="HelloWorld"
 				component={HelloWorld}
-				width={1920}
-				height={1080}
+				width={800}
+				height={600}
 				fps={60}
-				durationInFrames={60*30}
+				durationInFrames={data.renderStates.length}
+				defaultProps={data}
 			/>
 		</>
 	);

@@ -5,9 +5,16 @@
     text-shadow: 0 16px 64px black;
     font: bold 120px Arimo, sans-serif;
 }
-#scene{
+.miku{
+    position: absolute;
+}
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.miku *{
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}
+.debug{
+    position: absolute;
 }
