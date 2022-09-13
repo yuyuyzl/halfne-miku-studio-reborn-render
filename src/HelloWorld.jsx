@@ -24,7 +24,7 @@ export const HelloWorld = data => {
 	const frame = useCurrentFrame();
 
 	return (
-		<div id='scene' style={{ backgroundColor: 'transparent'}}>
+		<div id='scene' style={{ backgroundColor:data.background,backgroundImage:'url("'+data.background+'")',transform:`translate(-50%,-50%) scale(${data.scale||1})`}}>
 			<Miku renderState={deepPatch(data.renderStates[0],data.renderStates[frame])}></Miku>
 		</div>
 	);

@@ -18,3 +18,11 @@
 .debug{
     position: absolute;
 }
+
+#scene{
+    width: 800px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
