@@ -5,6 +5,7 @@
 	"scripts": {
 		"start": "remotion preview src/index.jsx",
 		"build": "remotion render src/index.jsx HelloWorld out/video.mp4",
+		"build:mov": "remotion render src/index.jsx HelloWorld out/video.mov --config remotion.config.mov.js",
 		"upgrade": "remotion upgrade",
 		"test": "eslint src --ext ts,tsx,js,jsx"
 	},

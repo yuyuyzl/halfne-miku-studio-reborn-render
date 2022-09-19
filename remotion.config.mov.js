@@ -8,6 +8,9 @@ Config.Rendering.setImageFormat('png');
 Config.Output.setOverwriteOutput(true);
 Config.Rendering.setConcurrentMode('browser');
 Config.Rendering.setParallelEncoding(true);
+Config.Output.setPixelFormat("yuva444p10le");
+Config.Output.setProResProfile("4444");
+Config.Output.setCodec("prores");
 
 
 // Config.Rendering.setConcurrency(12);
