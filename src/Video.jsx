@@ -1,7 +1,7 @@
-import {Composition,getInputProps} from 'remotion';
+import {Composition} from 'remotion';
 import {HelloWorld} from './HelloWorld';
+import data from './in.json';
 
-const data = getInputProps();
 // Each <Composition> is an entry in the sidebar!
 
 export const RemotionVideo = () => {

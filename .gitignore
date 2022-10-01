@@ -5,3 +5,5 @@ dist
 
 out
 /.idea/
+
+src/in.json
