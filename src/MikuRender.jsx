@@ -20,7 +20,7 @@ const deepPatch=(base,patch)=>{
 	if(Array.isArray(base))return base.map((o,i)=>obase[i]);else return obase;
 }
 
-export const HelloWorld = data => {
+export const MikuRender = data => {
 	const frame = useCurrentFrame();
 
 	return (
