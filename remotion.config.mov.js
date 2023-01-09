@@ -11,6 +11,7 @@ Config.Rendering.setParallelEncoding(true);
 Config.Output.setPixelFormat("yuva444p10le");
 Config.Output.setProResProfile("4444");
 Config.Output.setCodec("prores");
+Config.Bundling.setCachingEnabled(false);
 
 
 // Config.Rendering.setConcurrency(12);

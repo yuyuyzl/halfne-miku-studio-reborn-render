@@ -9,6 +9,7 @@ Config.Output.setImageSequence(true);
 Config.Output.setOverwriteOutput(true);
 Config.Rendering.setConcurrentMode('browser');
 Config.Rendering.setParallelEncoding(true);
+Config.Bundling.setCachingEnabled(false);
 
 
 // Config.Rendering.setConcurrency(12);
