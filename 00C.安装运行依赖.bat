@@ -16,5 +16,5 @@ if %ERRORLEVEL% NEQ 0 (
 set version=0
 for /f "tokens=1 delims=v" %%a in ('node -v') do set version=%%a
 if %version% GTR 17 set NODE_OPTIONS=--openssl-legacy-provider
-call npm install
+call npm install --no-audit
 pause
