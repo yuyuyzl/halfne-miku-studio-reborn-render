@@ -1,3 +1,4 @@
+@echo off
 cd /d %~dp0
 set path=%cd%\bin;%path%
 where node
