@@ -8,3 +8,6 @@ out
 
 src/in.json
 /yarn.lock
+
+bin/**
+!bin/*.url
