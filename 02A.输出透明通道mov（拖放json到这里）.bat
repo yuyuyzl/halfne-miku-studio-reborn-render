@@ -5,4 +5,5 @@ if %version% GTR 17 set NODE_OPTIONS=--openssl-legacy-provider
 copy %1 src\in.json
 if not exist "out" mkdir out
 call npx remotion render src/index.jsx HelloWorld out/video.mov --config .\remotion.config.mov.js
+wmic process where "commandline like '%%chrome.exe\" --type=renderer --headless --no-sandbox --disable-background-timer-throttling --disable-breakpad --enable-automation --force-color-profile=srgb%%'" delete
 pause
